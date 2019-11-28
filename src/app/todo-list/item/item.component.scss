@@ -1,0 +1,38 @@
+.todo-item-content{
+    display: flex;
+    justify-content: space-between; 
+    align-content: center;  
+}
+
+.todo-title{
+    line-height: 36px;
+    &.todo-complete{
+        color: green;
+        text-decoration: line-through;
+    }
+}
+
+.todo-events{
+    * + button{
+        margin-left: 10px;
+    }
+}
+
+.mat-button.mat-accent, 
+.mat-icon-button.mat-accent, 
+.mat-stroked-button.mat-accent{
+    color: green;
+    border-color: green;
+}
+.mat-button.mat-primary,
+.mat-icon-button.mat-primary,
+.mat-stroked-button.mat-primary{
+    color: grey;
+    border-color: grey;
+}
+.mat-button.mat-warn, 
+.mat-icon-button.mat-warn, 
+.mat-stroked-button.mat-warn{
+    color: #f44336;
+    border-color: #f44336;
+}

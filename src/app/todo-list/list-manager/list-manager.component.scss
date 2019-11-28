@@ -1,0 +1,10 @@
+.todo-app{
+    width: 800px;
+}
+.todo-item{
+    width: 100%;
+}
+
+:host ::ng-deep .mat-list-item-content {
+  padding: 0!important;
+}
